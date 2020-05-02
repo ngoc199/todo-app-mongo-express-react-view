@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #0092cc;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Form */
+form.main {
+  width: 50%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+form input[type="text"] {
+  width: 100%;
+  font-size: 1.2rem;
+}
+form textarea {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+form button[type="submit"] {
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  background-color: aqua;
+  border: none;
+  cursor: pointer;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn.btn-danger {
+  background-color: red;
+  color: #fff;
+}
+
+.btn.btn-primary {
+  background-color: aqua;
+  color: #333;
+}
+
+/* list */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  margin: 0.5rem auto;
+  background-color: #ddd;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li .btn.btn-primary {
+  margin-left: auto;
+  margin-right: 1rem;
+}
